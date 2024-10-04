@@ -10,7 +10,7 @@ export function onAuthStateChanged(cb) {
   return _onAuthStateChanged(auth, cb);
 }
 
-export async function  signInWithGoogle() {
+export async function   signInWithGoogle() {
 const provider = new GoogleAuthProvider();
 
 try {
